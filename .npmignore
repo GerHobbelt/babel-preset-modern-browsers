@@ -1,5 +1,5 @@
 /.circleci
-/build
+# /build
 /docs
 /examples
 /git-hooks
@@ -7,7 +7,7 @@
 /test
 /tsconfig.json
 /tsconfig.build.json
-.babelrc
+# .babelrc
 .codeclimate.yml
 .yo-rc.json
 
