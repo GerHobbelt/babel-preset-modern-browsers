@@ -1,6 +1,6 @@
 {
   "name": "@gerhobbelt/babel-preset-modern-browsers",
-  "version": "12.0.0-1",
+  "version": "12.0.0-3",
   "description": "Babel presets for modern browsers",
   "keywords": [
     "babel",
@@ -30,7 +30,7 @@
     "precommit-orig": "lint-staged",
     "preversion-orig": "yarn run lint && pob-repository-check-clean",
     "release-orig": "pob-repository-check-clean && pob-release",
-    "version": "pob-version",
+    "version-orig": "pob-version",
     "pub": "npm publish --access public"
   },
   "lint-staged": {
@@ -58,18 +58,18 @@
     ]
   },
   "peerDependencies": {
-    "@gerhobbelt/babel-core": "^1.0.0"
+    "@gerhobbelt/babel-core": "^7.0.0-0"
   },
   "dependencies": {
-    "@gerhobbelt/babel-plugin-proposal-async-generator-functions": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-proposal-object-rest-spread": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-proposal-unicode-property-regex": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-syntax-async-generators": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-syntax-object-rest-spread": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-syntax-optional-catch-binding": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-transform-arrow-functions": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-transform-function-name": "^7.0.0-beta.530006",
-    "@gerhobbelt/babel-plugin-transform-modules-commonjs": "^7.0.0-beta.530006"
+    "@gerhobbelt/babel-plugin-proposal-async-generator-functions": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-proposal-object-rest-spread": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-proposal-unicode-property-regex": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-syntax-async-generators": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-syntax-object-rest-spread": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-syntax-optional-catch-binding": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-transform-arrow-functions": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-transform-function-name": "7.0.0-14",
+    "@gerhobbelt/babel-plugin-transform-modules-commonjs": "7.0.0-14"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.1.1",
